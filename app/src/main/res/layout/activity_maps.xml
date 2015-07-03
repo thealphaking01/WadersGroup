@@ -1,0 +1,22 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_marginBottom="40dp"
+    android:layout_alignParentBottom="true"
+    android:text="Find Others"
+    android:textAlignment="center"
+    android:textColor="@color/button_material_dark"
+    android:onClick="findOthers"
+    />
+
+</RelativeLayout>
